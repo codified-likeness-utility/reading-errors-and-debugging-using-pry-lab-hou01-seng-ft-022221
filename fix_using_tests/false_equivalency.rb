@@ -18,3 +18,9 @@ def selection(num)
      "HAM HAM HAM IN MY TUMMY"
   end
 end
+
+def runner
+  prompt_user
+  selection(get_user_input)
+end
+end
