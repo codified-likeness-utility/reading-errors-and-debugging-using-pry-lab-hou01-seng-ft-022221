@@ -1,9 +1,7 @@
 # don't forget to add: require 'pry'
 require 'pry'
 
-def get_user_input
-  gets.chomp
-end
+
 
 def prompt_user
   puts "What would you like to do?"
@@ -17,6 +15,10 @@ def selection(num)
   else if num == 2
    p "HAM HAM HAM IN MY TUMMY"
   end
+end
+
+def get_user_input
+  gets.chomp
 end
 
 def runner
