@@ -3,6 +3,7 @@ require 'pry'
 
 def get_user_input
       binding.pry
+      puts 'hello'
   gets.chomp
 end
 
