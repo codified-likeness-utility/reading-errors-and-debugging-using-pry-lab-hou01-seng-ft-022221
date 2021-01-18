@@ -16,6 +16,7 @@ def selection(num)
     print "YUM YUM MUNCH MUNCH MUNCH"
   else if num == 2
     print "HAM HAM HAM IN MY TUMMY"
+    binding.pry
   end
 end
 
