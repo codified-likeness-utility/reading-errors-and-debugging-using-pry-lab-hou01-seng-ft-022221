@@ -20,7 +20,7 @@ def selection(num)
 end
 
 def runner
-  prompt_user
-  selection(get_user_input)
+ puts prompt_user
+ puts selection(get_user_input)
 end
 end
