@@ -2,6 +2,7 @@
 require 'pry'
 
 def get_user_input
+      binding.pry
   gets.chomp
 end
 
@@ -13,7 +14,6 @@ end
 
 def selection(num)
   if num == 1
-    binding.pry
     "YUM YUM MUNCH MUNCH MUNCH"
   else if num == 2
     "HAM HAM HAM IN MY TUMMY"
