@@ -14,6 +14,7 @@ end
 def selection(num)
   if num == 1
     binding.pry
+    p "hello"
    p "YUM YUM MUNCH MUNCH MUNCH"
   else if num == 2
    p "HAM HAM HAM IN MY TUMMY"
